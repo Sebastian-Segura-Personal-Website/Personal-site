@@ -1,1 +1,11 @@
-.q
+.quote {
+    font-family: 'Papyrus', fantasy;
+    font-weight: 100;
+    color: green;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+}
+.missionwords{
+    text-align: right;
+}
