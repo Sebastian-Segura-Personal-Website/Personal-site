@@ -1,16 +1,17 @@
 header {
+    color: #894705;
     font-size: 2rem;
     position: fixed;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px -2px black;
-    background-color: #eee;
+    background-color: #1f1e1e;
 }
 body {  background: rgb(2, 60, 43);
     margin: 0;}
 main {
-        padding: 70px 24px 96px;
-        color: #eee;
+        padding: 70px 24px 230px 96px;
+        color: #d1cfcf;
         font-family: 'Open Sans', sans-serif;
 }
 h2 {
