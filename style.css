@@ -9,7 +9,6 @@ header {
 body {  background: rgb(2, 60, 43);
     margin: 0;}
 main {
-        min-height: 100vh;
         padding: 70px 24px 96px;
         color: #eee;
         font-family: 'Open Sans', sans-serif;
