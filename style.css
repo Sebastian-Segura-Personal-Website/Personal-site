@@ -3,6 +3,15 @@ header {
     position: fixed;
     left: 0;
     right: 0;
-    padding: .5em 1em;
     box-shadow: 0 2px 4px -2px black;
+    background-color: #eee;
+}
+body {  background: rgb(2, 60, 43);
+    margin: 0;}
+main {
+        min-height: 100vh;
+        padding: 70px 24px 96px;
+        box-shadow: 0 0 12px -2px black;
+        color: #eee;
+        font-family: 'Open Sans', sans-serif;
 }
