@@ -1,1 +1,33 @@
-asdf
+
+.Project1{
+    text-align: right;
+    margin: 20px 50px 30px 5px;
+}
+.Project-name1{
+    text-align: center;
+}
+img{
+    float: left;
+}
+.Project2{
+    text-align: right;
+    margin: 100px 50px 30px 5px;
+}
+.Project-name2{
+    text-align: center;
+}
+.Project3{
+    text-align: right;
+    margin: 100px 50px 30px 5px;
+}
+.Project-name3{
+    text-align: center;
+}
+footer{
+    background-color: #0c0a077b;
+    font-size: 1.8rem;
+    color: aqua;
+}
+main{
+    padding: 70px 24px 20px 96px;
+}
