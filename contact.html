@@ -8,15 +8,42 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="contact-body">
-    <header>
+    <!-- <header> -->
         <!--links added again to navigate back and forth-->
-        <span class="Name">Sebastian Segura</span>
+        <!-- <span class="Name">Sebastian Segura</span>
         <nav class="links">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
             <a href="portfolio.html">PORTFOLIO</a>
             <a class="active" href="contact.html">CONTACT</a>
         </nav>
-    </header>
+    </header> -->
+    <h1>Want to stay in touch for future projects?</h1>
+    <h2> Enter your Name, Email and Phone number to keep in touch with web devolopment</h2>
+    <article>
+        <!-- to enter name and email -->
+        <form action="formsubmitted.html" method="get">
+            <div class="form-Name">
+            <lable for="fname">First and Last Name:</label><br>
+            </div>
+                <div class="form-input-Name">
+                    <!-- added required so user has to put in information before proceeding -->
+                <input type="text" id="fname" name="fname" required/><br>
+                </div>
+            <div class="form-Email">
+            <label for="email">Email:</lable><br>
+            </div>
+                <div class="form-input-Email">
+                <input type="email" id="email" name="email" required/><br>
+                
+                
+                </div>
+            <div class="form-Cellphone">
+                <lable form="cellNumber">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /><br><br>
+                    <input class="submit" type="submit" value="Submit" />
+            </div>
+        </form>
+    </article>
 </body>
 </html>
