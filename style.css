@@ -17,3 +17,54 @@ main {
 h2 {
     margin: 10px 50px 23px 50px;
 }
+.quote {
+    font-family: 'Papyrus', fantasy;
+    font-weight: 100;
+    color: green;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+}
+.mission-words{
+    font-family:'Harrington', fantasy ;
+    font-size: 2rem;
+}
+.statement{
+    font-family:'Harrington', fantasy;
+    font-size: 1.5rem;
+}
+section img {
+    padding: 0px 5px 2px 25px;
+    margin: 0 24px 24px 0;}
+    .project-head{
+        color: aliceblue;
+    }
+    #Project1{
+        text-align: right;
+        margin: 20px 50px 30px 5px;
+    }
+    .Project-name1{
+        text-align: center;
+    }
+    #portfolio-pictures{
+        float: left;
+    }
+    #Project2{
+        text-align: right;
+        margin: 100px 50px 30px 5px;
+    }
+    .Project-name2{
+        text-align: center;
+    }
+    #Project3{
+        text-align: right;
+        margin: 100px 50px 30px 5px;
+    }
+    .Project-name3{
+        text-align: center;
+    }
+    footer{
+        background-color: #0c0a077b;
+        font-size: 1.8rem;
+        color: aqua;
+    }

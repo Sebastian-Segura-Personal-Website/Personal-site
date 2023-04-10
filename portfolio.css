@@ -1,5 +1,7 @@
-
-.Project1{
+/* .project-head{
+    color: aliceblue;
+}
+#Project1{
     text-align: right;
     margin: 20px 50px 30px 5px;
 }
@@ -9,14 +11,14 @@
 img{
     float: left;
 }
-.Project2{
+#Project2{
     text-align: right;
     margin: 100px 50px 30px 5px;
 }
 .Project-name2{
     text-align: center;
 }
-.Project3{
+#Project3{
     text-align: right;
     margin: 100px 50px 30px 5px;
 }
@@ -27,7 +29,4 @@ footer{
     background-color: #0c0a077b;
     font-size: 1.8rem;
     color: aqua;
-}
-main{
-    padding: 70px 24px 20px 96px;
-}
+} */
