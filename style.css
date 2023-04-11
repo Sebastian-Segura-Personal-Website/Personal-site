@@ -61,7 +61,8 @@ img {
     align-items:flex-start;
     flex-direction: column;
     padding-bottom: 50px;
-    font-size: 30px;  
+    font-size: 30px;
+    border-top: 3px solid #bbb;
 }
 #Project1, #Project2, #Project3{
     font-size: 1em;
