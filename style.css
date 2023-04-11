@@ -94,7 +94,11 @@ section img {
 #contact-body{
     padding-top: 120px;
 }
+#contact-1h, #contact-2h{
+    font-family: 'Papyrus', fantasy;
+}
 form{
+    font-family: 'Papyrus', fantasy;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -104,7 +108,14 @@ form{
     width: 30rem;
     margin: auto;
     box-sizing: border-box;
-    }
+}
+lable{
+    color: rgb(25, 228, 62);
+}
+.submit:hover{
+    background-color: rgb(188, 118, 6);
+    color: rgb(200, 200, 21);
+}
 footer{
         background-color: #0c0a077b;
         font-size: 1.8rem;
@@ -212,21 +223,31 @@ section {
         margin: 100px 50px 30px 5px;
     }
 
-    #contact-body{
-        padding-top: 120px;
-    }
-    form{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        flex-direction: column;
-        background-color: rgb(86, 79, 56);
-        border-radius: 100px;
-        width: 30rem;
-        margin: auto;
-        box-sizing: border-box;
-        }
-
+#contact-body{
+    padding-top: 120px;
+}
+#contact-1h, #contact-2h{
+    font-family: 'Papyrus', fantasy;
+}
+form{
+    font-family: 'Papyrus', fantasy;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(86, 79, 56);
+    border-radius: 100px;
+    width: 30rem;
+    margin: auto;
+    box-sizing: border-box;
+}
+lable{
+    color: rgb(25, 228, 62);
+}
+.submit:hover{
+    background-color: rgb(188, 118, 6);
+    color: rgb(200, 200, 21);
+}
 footer{
         background-color: #0c0a077b;
         font-size: 1.8rem;
