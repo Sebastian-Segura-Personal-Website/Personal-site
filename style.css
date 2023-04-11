@@ -120,6 +120,9 @@ lable{
     background-color: rgb(188, 118, 6);
     color: rgb(200, 200, 21);
 }
+#thanks{
+    font-family:'Papyrus', fantasy;
+}
 footer{
         background-color: #0c0a077b;
         font-size: 1.8rem;
