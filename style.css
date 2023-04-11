@@ -52,6 +52,9 @@ section img {
     align-items: center;
     flex-direction: column;
 }
+img {
+    height: 10em;
+}
 #hobby-bx{
     display: flex;
     justify-content:center;
@@ -180,6 +183,9 @@ h2 {
     padding: 0px 5px 2px 25px;
     margin: 0 24px 24px 0;
 } */
+img {
+    height: 10em;
+}
 #hobby-bx:nth-of-type(odd) > img {
     float: left;
     margin: 0 24px 24px 0;
