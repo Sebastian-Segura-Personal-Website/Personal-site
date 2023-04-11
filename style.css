@@ -91,7 +91,20 @@ section img {
         text-align: right;
         margin: 100px 50px 30px 5px;
     }
-
+#contact-body{
+    padding-top: 120px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: rgb(86, 79, 56);
+    border-radius: 100px;
+    width: 30rem;
+    margin: auto;
+    box-sizing: border-box;
+    }
 footer{
         background-color: #0c0a077b;
         font-size: 1.8rem;
@@ -105,9 +118,6 @@ footer{
     }
 }
 
-form{
-    margin-left: 30px;
-}
 header {
     box-sizing: border-box;
     color: #894705;
@@ -170,17 +180,7 @@ h2 {
 section {
     border-top: 1px solid #bbb;
 }
-footer{
-    background-color: #0c0a077b;
-    font-size: 1.8rem;
-    color: aqua;
-    box-sizing: border-box;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 -2px 4px -2px black;
-}
+
 #Project1, #Project2, #Project3{
     font-size: 1em;
     width: calc(100vh - 16px);
@@ -211,3 +211,30 @@ footer{
         text-align: right;
         margin: 100px 50px 30px 5px;
     }
+
+    #contact-body{
+        padding-top: 120px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        background-color: rgb(86, 79, 56);
+        border-radius: 100px;
+        width: 30rem;
+        margin: auto;
+        box-sizing: border-box;
+        }
+
+footer{
+        background-color: #0c0a077b;
+        font-size: 1.8rem;
+        color: aqua;
+        box-sizing: border-box;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 -2px 4px -2px black;
+        }
