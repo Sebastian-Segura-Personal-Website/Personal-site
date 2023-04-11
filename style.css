@@ -53,7 +53,7 @@ section img {
     flex-direction: column;
 }
 img {
-    height: 10em;
+    height: 35vh;
 }
 #hobby-bx{
     display: flex;
@@ -131,7 +131,7 @@ footer{
         box-shadow: 0 -2px 4px -2px black;
     }
 }
-
+@media (min-width: 770px){
 header {
     box-sizing: border-box;
     color: #894705;
@@ -184,7 +184,7 @@ h2 {
     margin: 0 24px 24px 0;
 } */
 img {
-    height: 10em;
+    height: 20vh;
 }
 #hobby-bx:nth-of-type(odd) > img {
     float: left;
@@ -195,7 +195,7 @@ img {
     margin: 0 0 24px 24px;
 }
 section {
-    border-top: 1px solid #bbb;
+    border-top: 3px solid #bbb;
 }
 
 #Project1, #Project2, #Project3{
@@ -265,3 +265,4 @@ footer{
         right: 0;
         box-shadow: 0 -2px 4px -2px black;
         }
+}
