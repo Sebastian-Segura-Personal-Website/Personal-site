@@ -8,9 +8,11 @@ header {
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px -2px black;
-    background-color: #1f1e1e;
+    background-color: #141F1B;
     padding: 0px 0px 0px 0px;
-
+}
+.links{
+    float: right;
 }
 body {  background: rgb(2, 60, 43);
     margin: 0;
@@ -124,8 +126,9 @@ lable{
     font-family:'Papyrus', fantasy;
 }
 footer{
-        background-color: #0c0a077b;
+        background-color: #141F1B;
         font-size: 1.8rem;
+        text-align: center;
         color: aqua;
         box-sizing: border-box;
         position: fixed;
@@ -138,26 +141,40 @@ footer{
 @media (min-width: 770px){
 header {
     box-sizing: border-box;
-    color: #894705;
-    font-size: 2rem;
+    color: #944001;
+    font-size: 3rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px -2px black;
-    background-color: #1f1e1e;
-    padding: 0px 0px 0px 0px;
-
+    background-color: #10141d;
+    padding: .2em 1em;
 }
-body {  background: rgb(2, 60, 43);
+.links a {
+    text-decoration: none;
+    color: #72A3A8;
+    margin-left: 0.25em;
+}
+.links{
+    float: right;
+}
+
+body {  background: #022016;
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 30em;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px 5px black;
+}
+html {
+    background: #033324;
 }
 main {
     height: calc(100vh - 16px);
     width: calc(100vh - 16px);
-    padding: 70px 24px 0px 96px;
-    color: #d1cfcf;
+    padding: 70px 24px;
+    color: #E1C09F;
     font-family: 'Open Sans', sans-serif;
 }
 h2 {
@@ -166,11 +183,11 @@ h2 {
 .quote {
     font-family: 'Papyrus', fantasy;
     font-weight: 100;
-    color: green;
+    color: #B97071;
     font-size: 3rem;
     text-align: center;
     margin: 3rem 0rem 0rem 0rem;
-    padding-left: 30vmin;
+    padding-left: 19vmin;
     margin-left: auto;
     margin-right: auto;
     width: 15em
@@ -181,7 +198,7 @@ h2 {
 }
 .statement{
     font-family:'Harrington', fantasy;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 /* section img {
     padding: 0px 5px 2px 25px;
@@ -201,7 +218,9 @@ img {
 section {
     border-top: 3px solid #bbb;
 }
-
+.project-head{
+    padding-left: 320px;
+}
 #Project1, #Project2, #Project3{
     font-size: 1em;
     width: calc(100vh - 16px);
@@ -220,7 +239,7 @@ section {
     }
 #Project1{
         text-align: right;
-        margin: 50px 50px 30px 5px;
+        margin: 50px 50px 30px 75px;
     }
 .Project-name, .Project-name2, .Project-name3{
         text-align: center;
@@ -230,11 +249,12 @@ section {
     }
 #Project2, #Project3{
         text-align: right;
-        margin: 100px 50px 30px 5px;
+        margin: 10px 50px 30px 75px;
     }
 
 #contact-body{
-    padding-top: 120px;
+    padding: 120px 0 11em;
+
 }
 #contact-1h, #contact-2h{
     font-family: 'Papyrus', fantasy;
@@ -259,8 +279,10 @@ lable{
     color: rgb(200, 200, 21);
 }
 footer{
-        background-color: #0c0a077b;
-        font-size: 1.8rem;
+        background-color: #10141d;
+        padding: .2em;
+        font-size: 2.5rem;
+        text-align: center;
         color: aqua;
         box-sizing: border-box;
         position: fixed;
@@ -268,5 +290,10 @@ footer{
         left: 0;
         right: 0;
         box-shadow: 0 -2px 4px -2px black;
-        }
+}
+footer a {
+    margin-right: 64px;
+    text-decoration: none;
+    color:  #72A3A8;
+}
 }
