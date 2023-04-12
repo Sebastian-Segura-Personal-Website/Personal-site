@@ -1,30 +1,42 @@
-@media (max-width: 769px){
+@media (max-width: 768px){
 header {
-    /* box-sizing: border-box; */
-    color: #894705;
+    box-sizing: border-box;
+    color: #944001;
     font-size: 2rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px -2px black;
-    background-color: #141F1B;
-    padding: 0px 0px 0px 0px;
+    background-color: #10141d;
+    padding: .2em .1em;
+}
+.links a {
+    text-decoration: none;
+    color: #72A3A8;
+    /* margin-left: 0.25em; */
 }
 .links{
     float: right;
 }
-body {  background: rgb(2, 60, 43);
-    margin: 0;
+#home-bod{  
+    background: #022016;
     height: calc(100vh - 16px);
     width: calc(100vh - 16px);
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px 5px black;
+    padding-bottom: 300px;
+}
+html {
+    background: #033324;
 }
 main {
     height: calc(100vh - 16px);
     width: calc(100vh - 16px);
-        /* padding: 70px 24px 0px 96px; */
-        color: #d1cfcf;
-        font-family: 'Open Sans', sans-serif;
+    padding: 0em 2em 0em 0em;
+    color: #E1C09F;
+    font-family:'Harrington', fantasy;
 }
 h2 {
     margin: 10px 50px 23px 50px;
@@ -32,19 +44,21 @@ h2 {
 .quote {
     font-family: 'Papyrus', fantasy;
     font-weight: 100;
-    color: green;
+    color: #B97071;
     font-size: 2rem;
     text-align: center;
     margin: 3rem 0rem 0rem 0rem;
+    text-shadow: 5px 2px black;
 }
 .mission-words{
     font-family:'Harrington', fantasy ;
     font-size: 2rem;
-    padding: 75px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
+    text-shadow: 5px 2px black;
 }
 .statement{
     font-family:'Harrington', fantasy;
-    font-size: rem;
+    text-shadow: 5px 2px black;
 }
 section img {
     padding: 0px 5px 2px 25px;
@@ -57,6 +71,17 @@ section img {
 img {
     height: 35vh;
 }
+#about-bod {  
+    background: #022016;
+    height: 165em;
+    width: 40em;
+    margin: 0 auto;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px 5px black;
+    text-shadow: 5px 2px black;
+}
+
 #hobby-bx{
     display: flex;
     justify-content:center;
@@ -66,23 +91,36 @@ img {
     font-size: 30px;
     border-top: 3px solid #bbb;
 }
+#port-bod {  background: #022016;
+    height: 125em;
+    width: 41.5em;
+    margin: 0 auto;
+    padding-bottom: 30em;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px 5px black;
+}
+
+.project-head{
+    padding: 4rem 0 0 10rem;
+    margin: auto;
+    color:#E1C09F;
+    font-family: 'Papyrus', fantasy;
+    text-shadow: 5px 2px black;
+}
 #Project1, #Project2, #Project3{
     font-size: 1em;
+    font-family: 'Papyrus', fantasy;
+    text-shadow: 2px 2px black;
     width: calc(100vh - 16px);
     background: #0d0d0d;
-    background: #337735;
-    color:  black;
-    box-shadow: 0px 5px 30px 10px #3d4662;
+    background: #29443F;
+    color: #E1C09F;
+    box-shadow: 0px 0px 10px 5px #ADA49B;
     margin: 2em auto;
     padding: 1em;
     border-radius: 16px;
     padding-bottom: 20px;
 }
-
-.project-head{
-        color: aliceblue;
-        margin-left: -100px;
-    }
 #Project1{
         text-align: right;
         margin: 20px 50px 30px 5px;
@@ -95,12 +133,14 @@ img {
     }
 #Project2, #Project3{
         text-align: right;
-        margin: 100px 50px 30px 5px;
+        margin: 100px 50px 0px 5px;
     }
 #contact-body{
     padding-top: 120px;
 }
 #contact-1h, #contact-2h{
+    color: #ADA49B;
+    text-shadow: 5px 2px black;
     font-family: 'Papyrus', fantasy;
 }
 form{
@@ -109,36 +149,47 @@ form{
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background-color: rgb(86, 79, 56);
-    border-radius: 100px;
+    background-color: #4E4826;
+    border-radius: 750%;
+    box-shadow: 0px 0px 10px 5px #2C2D19;
+    height: 20em;
     width: 30rem;
     margin: auto;
     box-sizing: border-box;
+    text-shadow: 2px 2px black;
 }
 lable{
-    color: rgb(25, 228, 62);
-}
-.submit:hover{
-    background-color: rgb(188, 118, 6);
-    color: rgb(200, 200, 21);
+    color: #DEA2A2;
 }
 #thanks{
     font-family:'Papyrus', fantasy;
+    color: #ADA49B;
+    text-align: center;
+    padding-top: 8rem;
+    text-shadow: 5px 2px black;
+}
+.back-link a {
+    color: #72A3A8;
 }
 footer{
-        background-color: #141F1B;
-        font-size: 1.8rem;
-        text-align: center;
-        color: aqua;
-        box-sizing: border-box;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        box-shadow: 0 -2px 4px -2px black;
+    background-color: #141F1B;
+    font-size: 1.8rem;
+    text-align: center;
+    color: aqua;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -2px 4px -2px black;
+}
+footer a {
+    margin-right: 64px;
+    text-decoration: none;
+    color:  #72A3A8;
     }
 }
-@media (min-width: 770px){
+@media (min-width: 769px){
 header {
     box-sizing: border-box;
     color: #944001;
@@ -160,10 +211,9 @@ header {
     float: right;
 }
 
-body {  background: #022016;
+#home-bod{  background: #022016;
     max-width: 960px;
     margin: 0 auto;
-    padding-bottom: 30em;
     box-sizing: border-box;
     box-shadow: 0 -2px 4px 5px black;
 }
@@ -175,7 +225,8 @@ main {
     width: calc(100vh - 16px);
     padding: 70px 24px;
     color: #E1C09F;
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Harrington', fantasy;
+
 }
 h2 {
     margin: 10px 50px 23px 50px;
@@ -190,22 +241,36 @@ h2 {
     padding-left: 19vmin;
     margin-left: auto;
     margin-right: auto;
-    width: 15em
+    width: 15em;
+    text-shadow: 5px 2px black;
 }
 .mission-words{
     font-family:'Harrington', fantasy ;
     font-size: 2rem;
+    text-shadow: 5px 2px black;
 }
 .statement{
     font-family:'Harrington', fantasy;
-    /* padding-left: 100px; */
+    text-shadow: 5px 2px black;
 }
-/* section img {
+section img {
     padding: 0px 5px 2px 25px;
     margin: 0 24px 24px 0;
-} */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
 img {
     height: 20vh;
+}
+#about-bod {  background: #022016;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px 5px black;
+    text-shadow: 5px 2px black;
 }
 #hobby-bx:nth-of-type(odd) > img {
     float: left;
@@ -218,25 +283,33 @@ img {
 section {
     border-top: 3px solid #bbb;
 }
+#port-bod {  background: #022016;
+    height: 127em;
+    width: 60em;
+    margin: 0 auto;
+    padding-bottom: 30em;
+    box-sizing: border-box;
+    box-shadow: 0 -2px 4px 5px black;
+}
 .project-head{
     padding-left: 320px;
+    margin-left: -320px;
+    color:#E1C09F;
+    text-shadow: 5px 2px black;
 }
 #Project1, #Project2, #Project3{
-    font-size: 1em;
+    font-size: 1.5em;
     width: calc(100vh - 16px);
     background: #0d0d0d;
-    background: #337735;
-    color:  black;
-    box-shadow: 0px 5px 30px 10px #3d4662;
+    background: #29443F;
+    color:  #E1C09F;
+    box-shadow: 0px 0px 10px 5px #ADA49B;
     margin: 2em auto;
     padding: 1em;
     border-radius: 16px;
     padding-bottom: 20px;
+    text-shadow: 2px 2px black;
 }
-.project-head{
-        color: black;
-        margin-left: -320px;
-    }
 #Project1{
         text-align: right;
         margin: 50px 50px 30px 75px;
@@ -257,7 +330,10 @@ section {
 
 }
 #contact-1h, #contact-2h{
+    color: #ADA49B;
+    text-shadow: 5px 2px black;
     font-family: 'Papyrus', fantasy;
+    text-align: center;
 }
 form{
     font-family: 'Papyrus', fantasy;
@@ -265,17 +341,30 @@ form{
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    background-color: rgb(86, 79, 56);
-    border-radius: 100px;
+    background-color: #4E4826;
+    border-radius: 750%;
+    box-shadow: 0px 0px 10px 5px #2C2D19;
+    height: 20em;
     width: 30rem;
     margin: auto;
     box-sizing: border-box;
+    text-shadow: 2px 2px black;
 }
 lable{
-    color: rgb(25, 228, 62);
+    color: #DEA2A2;
+}
+#thanks{
+    font-family:'Papyrus', fantasy;
+    color: #ADA49B;
+    text-align: center;
+    padding-top: 8rem;
+    text-shadow: 5px 2px black;
+}
+.back-link a {
+    color: #72A3A8;
 }
 .submit:hover{
-    background-color: rgb(188, 118, 6);
+    background-color: #C16D1B;
     color: rgb(200, 200, 21);
 }
 footer{
