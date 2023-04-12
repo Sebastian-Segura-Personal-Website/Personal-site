@@ -1,1 +1,2 @@
 # Personal-site
+This repository is for my personal website. The website will have a short introduction on the Home page. It will also includes an About page of my hobbies.  With the Portfolio page, it will include a few of my projects I've accomplished. Lastly, there will be a Contact page if anyone is interested in reaching to have future work done.
