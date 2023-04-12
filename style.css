@@ -8,9 +8,11 @@ header {
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px -2px black;
-    background-color: #1f1e1e;
+    background-color: #141F1B;
     padding: 0px 0px 0px 0px;
-
+}
+.links{
+    float: right;
 }
 body {  background: rgb(2, 60, 43);
     margin: 0;
@@ -124,8 +126,9 @@ lable{
     font-family:'Papyrus', fantasy;
 }
 footer{
-        background-color: #0c0a077b;
+        background-color: #141F1B;
         font-size: 1.8rem;
+        text-align: center;
         color: aqua;
         box-sizing: border-box;
         position: fixed;
@@ -139,15 +142,17 @@ footer{
 header {
     box-sizing: border-box;
     color: #894705;
-    font-size: 2rem;
+    font-size: 3rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px -2px black;
-    background-color: #1f1e1e;
-    padding: 0px 0px 0px 0px;
-
+    background-color: #141F1B;
+    padding: .2em 1em;
+}
+.links{
+    float: right;
 }
 body {  background: rgb(2, 60, 43);
     max-width: 960px;
@@ -156,7 +161,7 @@ body {  background: rgb(2, 60, 43);
 main {
     height: calc(100vh - 16px);
     width: calc(100vh - 16px);
-    padding: 70px 24px 0px 96px;
+    padding: 70px 24px;
     color: #d1cfcf;
     font-family: 'Open Sans', sans-serif;
 }
@@ -170,7 +175,7 @@ h2 {
     font-size: 3rem;
     text-align: center;
     margin: 3rem 0rem 0rem 0rem;
-    padding-left: 30vmin;
+    padding-left: 19vmin;
     margin-left: auto;
     margin-right: auto;
     width: 15em
@@ -181,7 +186,7 @@ h2 {
 }
 .statement{
     font-family:'Harrington', fantasy;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 }
 /* section img {
     padding: 0px 5px 2px 25px;
@@ -201,7 +206,9 @@ img {
 section {
     border-top: 3px solid #bbb;
 }
-
+#project-h{
+    padding-left: 96px;
+}
 #Project1, #Project2, #Project3{
     font-size: 1em;
     width: calc(100vh - 16px);
@@ -259,8 +266,10 @@ lable{
     color: rgb(200, 200, 21);
 }
 footer{
-        background-color: #0c0a077b;
-        font-size: 1.8rem;
+        background-color: #141F1B;
+        padding: .2em;
+        font-size: 2.5rem;
+        text-align: center;
         color: aqua;
         box-sizing: border-box;
         position: fixed;
